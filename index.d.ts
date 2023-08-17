@@ -23,6 +23,7 @@ declare module 'react-native-shimmer-placeholder' {
         containerProps?: ViewProps
         shimmerContainerProps?: ViewProps
         childrenContainerProps?: ViewProps
+        useNativeDriver?: boolean;
     }
 
     class ShimmerPlaceholder extends React.Component<ShimmerPlaceholderProps, any> {
